@@ -400,16 +400,15 @@ class Resultados(Page):
        
 # FALTA CLASE CUANDO CIUDADANO NO SOBORNA
 
-page_sequence = [#Control,
-                #Instrucciones,
-                #Instrucciones_roles,
-                 #Comprension,
+page_sequence = [Control,
+                 Instrucciones,
+                 Instrucciones_roles,
+                 Comprension,
                  WaitPage_Ciudadano2,
                  WaitPage_Oficial,
                  WaitPage_Monitor,
                  Ciudadano1,
                  Ciudadano2,
-                 # ResultadosSinSoborno,
                  WaitPageSoborno,
                  WaitPage_Ciudadano1,
                  WaitPage_Ciudadano2,
